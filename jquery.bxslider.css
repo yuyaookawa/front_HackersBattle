@@ -34,9 +34,8 @@
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
 	border:  5px solid #fff;
-	left: -5px;
 	background: #fff;
-	
+	top:5px;
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -48,9 +47,10 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -30px;
+	bottom: -50px;
 	width: 100%;
 }
+
 
 /* LOADER */
 
@@ -105,12 +105,13 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	/*background: url(images/controls.png) no-repeat 0 -32px;*/
 }
+
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	/*background: url(images/controls.png) no-repeat -43px -32px;*/
 }
 
 .bx-wrapper .bx-prev:hover {

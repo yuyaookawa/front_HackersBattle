@@ -50,14 +50,35 @@ a:active, a:hover{
 	 color: #34e;
 }
 
+.SendCommentForrm{
+	text-align:right;
+	margin:10px;
+}
+/*スライドショー readpage*/
+
+a.bx-prev:hover{
+	height:0px;
+	width:0px;
+	border-top:20px solid transparent;
+	border-left:0px solid transparent;
+	border-right:#0a0a0a 40px solid;
+	border-bottom:20px solid transparent;
+	opacity: 0.7;
+}
+
+a.bx-next:hover{
+	height:0px;
+	width:0px;
+	border-top:20px solid transparent;
+	border-right:0px solid transparent;
+	border-left:#0a0a0a 40px solid;
+	border-bottom:20px solid transparent;
+	opacity: 0.7;
+}
+
+.bx-viewport:hover > .bx-next:hover{
+	background-color: #faf;
+}
 
 
-/*モーダル*/
 
-
-
-
-
-
-
-/* 星評価 */
