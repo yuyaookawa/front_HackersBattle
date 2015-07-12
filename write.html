@@ -107,8 +107,8 @@
 
 			<p>  
 				<form style="text-align: center;">
-					<button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Finish</button>
-					<button type="submit" class="pure-button pure-input-1-2 pure-button-primary">WriteMore</button>
+					<button type="submit" onclick="location.href='#modal-fin" class="pure-button pure-input-1-2 pure-button-primary">Finish</button>
+					<button type="submit" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='#modal-next'">WriteMore</button>
 				</form>
 			</p>
 
@@ -178,12 +178,33 @@
         </div>
 
         
-
+        
 
     </div>
 </div>
 
+<section class="modal-window" id="modal-next">
+<div class="modal-inner">
+    <div class="ContentMargin">
+        <form class="pure-form">
+                <fieldset class="pure-group">
+                    <textarea class="pure-input-1-2" placeholder="Textareas work too" style="width: 80%;"></textarea>
+                    <button type="submit" class="pure-button pure-input-1-2 pure-button-primary" style="text-align:center; width:100px;">Next</button>
+                </fieldset>
+        </form>
+    </div>
+</div>
+<a href="#!" class="modal-close">&times;</a>
+</section>
 
+<section class="modal-window" id="modal-fin">
+<div class="modal-inner">
+<p>コンテンツ<br>
+コンテンツ<br>
+コンテンツ</p>
+</div>
+<a href="#!" class="modal-close">&times;</a>
+</section>
 
 
 <div class="footer l-box is-center">
