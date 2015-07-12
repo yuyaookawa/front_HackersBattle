@@ -106,10 +106,12 @@
 			</div>
 
 			<p>  
+                <!--　変更 -->
 				<form style="text-align: center;">
-					<button type="submit" onclick="location.href='#modal-fin" class="pure-button pure-input-1-2 pure-button-primary">Finish</button>
+					<button type="submit" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='#modal-fin'">Finish</button>
 					<button type="submit" class="pure-button pure-input-1-2 pure-button-primary" onclick="location.href='#modal-next'">WriteMore</button>
 				</form>
+                <!--　変更 -->
 			</p>
 
 
@@ -182,14 +184,14 @@
 
     </div>
 </div>
-
+<!-- 追加 -->
 <section class="modal-window" id="modal-next">
 <div class="modal-inner">
     <div class="ContentMargin">
         <form class="pure-form">
                 <fieldset class="pure-group">
-                    <textarea class="pure-input-1-2" placeholder="Textareas work too" style="width: 80%;"></textarea>
-                    <button type="submit" class="pure-button pure-input-1-2 pure-button-primary" style="text-align:center; width:100px;">Next</button>
+                    <textarea class="pure-input-1-2" placeholder="理解の手助けになるようなコメントを入れてください" style="width: 100%; height:300px;"></textarea>
+                    <button type="submit" class="pure-button pure-input-1-2 pure-button-primary" style="float: right;  width:100px;">Next</button>
                 </fieldset>
         </form>
     </div>
@@ -198,14 +200,12 @@
 </section>
 
 <section class="modal-window" id="modal-fin">
-<div class="modal-inner">
-<p>コンテンツ<br>
-コンテンツ<br>
-コンテンツ</p>
-</div>
-<a href="#!" class="modal-close">&times;</a>
+    <div class="modal-inner" style="height:300px;">
+        <p style="margin-top:25%; ">正常に終了しました。</p>
+    </div>
+    <a href="./index.html" class="modal-close">&times;</a>
 </section>
-
+<!-- 追加 -->
 
 <div class="footer l-box is-center">
     View the source of this layout to learn more. Made with love by the YUI Team.
