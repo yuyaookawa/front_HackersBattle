@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5サンプル</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type='text/javascript' src='jquery.bxSlider.js'></script>
+<link rel="stylesheet" href="jquery.bxslider.css">
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+      //レスポンシブルに最初からなってます
+    pager: true,
+    // スライダーのwidth(CSSでも可)
+    slideWidth:900,
+    // 左右のスライダーボタン
+    prevText: '',
+    nextText: '',
+    // 動的に高さ取る
+    adaptiveHeight: 'true',
+    });
+  });
+</script>
+</head>
+<body>
+<ul class="bxslider">
+<li>一個目</li>
+<li>二個目</li>
+<li>三個目</li>
+<li>n個目</li>
+</ul>
+</body>
+</html>
